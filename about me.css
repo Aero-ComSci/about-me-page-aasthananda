@@ -1,0 +1,76 @@
+h1{
+  color:black;
+  font-weight: bolder;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+p{
+  font-size: 11pt;
+  font-family:'Courier New', Courier, monospace;
+
+}
+th{
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  background: linear-gradient(303deg, rgba(68,58,180,1) 13%, rgba(131,58,180,1) 26%, rgba(190,63,126,1) 44%, rgba(252,69,69,1) 63%, rgba(252,147,70,1) 87%, rgba(205,252,70,1) 100%);
+    width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+img {
+  margin: auto;
+  display: block;
+  width: 20%;
+}
+
+ p5{
+   font-size: 11pt;
+   font-family:'Courier New', Courier, monospace;
+   margin: auto;
+   display: block;
+ }
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  border-style: ridge;
+  border-color:black;
+  
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  margin-left: 42%;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: coral;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+}
